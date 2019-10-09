@@ -1,0 +1,262 @@
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf); }
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../fonts/Montserrat-Medium.ttf); }
+@font-face {
+  font-family: Montserrat-Italic;
+  src: url(../fonts/Montserrat-Italic.ttf); }
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf); }
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../fonts/Montserrat-Light.ttf); }
+html {
+  font-size: 16px; }
+
+h1 {
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-size: 2rem; }
+
+h2 {
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-size: 1.7rem; }
+
+h3 {
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-size: 1.4rem; }
+
+h4 {
+  font-family: Montserrat-Medium;
+  font-style: normal;
+  font-size: 1.2rem; }
+
+h5 {
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-size: 1.2rem; }
+
+h6 {
+  font-family: Montserrat-Medium;
+  font-size: .9rem; }
+
+p {
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-size: 1rem; }
+
+a {
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-size: 1rem; }
+
+.encabezado {
+  background-color: #fff;
+  padding: .5rem 0;
+  color: #03a550; }
+
+.encabezado .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.encabezado .container a img {
+  width: 70px; }
+
+.boton-buscar,
+.boton-menu {
+  border: 0;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0 .5rem;
+  background: transparent;
+  color: #03a550; }
+
+.boton-buscar {
+  margin-left: auto; }
+
+.boton-buscar:focus,
+.boton-menu:focus {
+  outline: none; }
+
+.contenedor-bloque-buscar {
+  display: flex;
+  height: 3rem;
+  margin: 1rem 0; }
+
+.contenedor-bloque-buscar input[type="text"] {
+  border: 1;
+  border-color: #03a550;
+  border-radius: 5px 0 0 5px;
+  padding: 1rem; }
+
+.contenedor-bloque-buscar input[type="text"]:focus {
+  outline: none; }
+
+.contenedor-bloque-buscar input[type="submit"] {
+  flex: 1 1 auto;
+  border: 0;
+  border-radius: 0 5px 5px 0;
+  padding: 1rem;
+  background-color: #03a550;
+  color: #fff; }
+
+#menu-principal {
+  flex: 1 1 100%;
+  background-color: #03a550;
+  border-radius: 5px;
+  margin-top: 1rem; }
+
+#menu-principal ul {
+  padding: 0;
+  list-style: none;
+  margin: 0; }
+
+#menu-principal ul a,
+#menu-principal ul li .redes-sociales-menu-mobile {
+  display: block;
+  padding: .5rem 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+#menu-principal ul li .redes-sociales-menu-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#menu-principal ul li .redes-sociales-menu-mobile a {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.principal {
+  margin-top: auto;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  flex-grow: 100%; }
+
+.principal .btn-primary {
+  width: 180px;
+  margin: .3rem;
+  background-color: #03a550;
+  border-color: #03a550;
+  text-decoration: none; }
+
+.principal .btn-primary:hover,
+.principal .btn-primary:active,
+.principal .btn-primary:active:hover,
+.principal .btn-primary:focus,
+.principal .btn-primary:focus:hover,
+.principal .btn-primary:not(disabled):not(.disabled):active {
+  background-color: #03a550;
+  border-color: #03a550;
+  text-decoration: none; }
+
+.bienvenida {
+  background: url("../images/MC-fondoprincipal-mobile.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; }
+
+.empresa img {
+  width: 85%; }
+
+.imagenes-separadores {
+  height: 20vh;
+  background: url("../images/imagenes-piaggio-mobile.jpg") no-repeat center bottom;
+  background-attachment: scroll; }
+
+.textoadicional .motocarro-animacion {
+  width: 99%; }
+
+.motocarro-animacion img {
+  width: 99%; }
+
+.servicios article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem; }
+
+.servicios article img {
+  width: 50px;
+  margin-right: 1rem; }
+
+.servicios article p {
+  margin-top: 1rem; }
+
+.contacto {
+  background: url("../images/MC-fondocontacto.jpg") no-repeat center center;
+  background-attachment: fixed; }
+
+.contacto h2 {
+  color: #fff; }
+
+.form-control {
+  border-radius: 0 0 0 0;
+  background-color: rgba(51, 51, 51, 0.9);
+  color: "fff;"; }
+
+.contacto input::-webkit-input-placeholder,
+.contacto textarea::-webkit-input-placeholder {
+  color: #fff; }
+
+.contacto .form-group .btn-primary {
+  width: 200px;
+  margin: .3rem;
+  background-color: #03a550;
+  border-color: #03a550;
+  text-decoration: none; }
+
+.contacto .mapa img {
+  width: 97%; }
+
+.piedepagina {
+  background-color: #03a550; }
+
+.redessociales {
+  background-color: #03a550;
+  padding: 0;
+  margin: 0; }
+
+.redessociales ul {
+  list-style: none;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.redessociales ul li a {
+  color: #fff;
+  margin: .5rem 1.5rem;
+  font-size: 2rem; }
+
+.piedepagina .creditos {
+  background-color: #24553a;
+  height: 40px;
+  width: 100%;
+  color: #fff; }
+
+@media screen and (max-width: 767px) {
+  .encabezado-contactos {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */

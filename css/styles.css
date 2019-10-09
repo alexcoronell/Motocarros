@@ -1,0 +1,117 @@
+@font-face { font-family: Montserrat-Regular; src: url(../fonts/Montserrat-Regular.ttf); }
+@font-face { font-family: Montserrat-Medium; src: url(../fonts/Montserrat-Medium.ttf); }
+@font-face { font-family: Montserrat-Italic; src: url(../fonts/Montserrat-Italic.ttf); }
+@font-face { font-family: Montserrat-Bold; src: url(../fonts/Montserrat-Bold.ttf); }
+@font-face { font-family: Montserrat-Light; src: url(../fonts/Montserrat-Light.ttf); }
+html { font-size: 16px; }
+
+h1 { font-family: Montserrat-Bold; font-style: normal; font-size: 2rem; }
+
+h2 { font-family: Montserrat-Bold; font-style: normal; font-size: 1.7rem; }
+
+h3 { font-family: Montserrat-Medium; font-style: normal; font-size: 1.4rem; }
+
+h4 { font-family: Montserrat-Medium; font-style: normal; font-size: 1.2rem; }
+
+h5 { font-family: Montserrat-Regular; font-style: normal; font-size: 1.2rem; }
+
+h6 { font-family: Montserrat-Medium; font-size: .9rem; }
+
+p { font-family: Montserrat-Regular; font-style: normal; font-size: 1rem; }
+
+a { font-family: Montserrat-Regular; font-style: normal; font-size: 1rem; }
+
+.encabezado { background-color: #fff; padding: .5rem 0; color: #03a550; }
+
+.encabezado a img { width: 70px; }
+
+.logo { margin-right: auto; margin-left: .5rem; }
+
+.boton-buscar, .boton-menu { border: 0; font-size: 2rem; padding: 0 .5rem; margin-left: auto !important; background: transparent; color: #03a550; }
+
+.boton-buscar:focus, .boton-menu:focus { outline: none; }
+
+.contenedor-bloque-buscar { display: -webkit-box; display: -ms-flexbox; display: flex; height: 3rem; margin: 1rem 0; }
+
+.contenedor-bloque-buscar input[type="text"] { border: 1; border-color: #03a550; border-radius: 5px 0 0 5px; padding: 1rem; }
+
+.contenedor-bloque-buscar input[type="text"]:focus { outline: none; }
+
+.contenedor-bloque-buscar input[type="submit"] { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; border: 0; border-radius: 0 5px 5px 0; padding: 1rem; background-color: #03a550; color: #fff; }
+
+#menu-principal { -webkit-box-flex: 1; -ms-flex: 1 1 100%; flex: 1 1 100%; background-color: #03a550; border-radius: 5px; margin-top: 1rem; }
+
+#menu-principal ul { padding: 0; list-style: none; margin: 0; }
+
+#menu-principal ul a, #menu-principal ul li .redes-sociales-menu-mobile { display: block; padding: .5rem 0; text-align: center; color: #fff; text-transform: uppercase; text-decoration: none; }
+
+#menu-principal ul li .redes-sociales-menu-mobile { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#menu-principal ul li .redes-sociales-menu-mobile a { font-size: 1.5rem; padding-left: 1rem; padding-right: 1rem; }
+
+.principal { margin-top: auto; margin-bottom: 3rem; margin-left: auto; margin-right: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-flex: 100%; -ms-flex-positive: 100%; flex-grow: 100%; }
+
+.principal .btn-primary { width: 180px; margin: .3rem; background-color: #03a550; border-color: #03a550; text-decoration: none; }
+
+.principal .btn-primary:hover, .principal .btn-primary:active, .principal .btn-primary:active:hover, .principal .btn-primary:focus, .principal .btn-primary:focus:hover, .principal .btn-primary:not(disabled):not(.disabled):active { background-color: #03a550; border-color: #03a550; text-decoration: none; }
+
+.bienvenida { background: url("../images/MC-fondoprincipal-mobile.jpg") no-repeat center top; background-size: cover; background-attachment: fixed; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+
+.empresa img { width: 85%; max-width: 350px; }
+
+.contenedor-imagenes-separadores { height: 20rem; background: url("../images/imagenes-piaggio-mobile.jpg") no-repeat center center; }
+
+.textoadicional .motocarro-animacion { width: 99%; }
+
+.servicios article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 1rem; padding-right: 1rem; padding-left: 1rem; }
+
+.servicios article img { width: 50px; margin-right: 1rem; }
+
+.servicios article p { margin-top: 1rem; }
+
+.contacto { background: url("../images/MC-fondocontacto.jpg") no-repeat center center; background-attachment: fixed; }
+
+.contacto h2 { color: #fff; }
+
+.form-control { border-radius: 0 0 0 0; background-color: rgba(51, 51, 51, 0.9); color: "fff;"; }
+
+.contacto input::-webkit-input-placeholder, .contacto textarea::-webkit-input-placeholder { color: #fff; }
+
+.contacto .form-group .btn-primary { width: 200px; margin: .3rem; background-color: #03a550; border-color: #03a550; text-decoration: none; }
+
+.contacto .mapa img { width: 97%; max-width: 400px; }
+
+.piedepagina { background-color: #03a550; }
+
+.redessociales { background-color: #03a550; padding: 0; margin: 0; }
+
+.redessociales ul { list-style: none; padding: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.redessociales ul li a { color: #fff; margin: .5rem 1.5rem; font-size: 2rem; }
+
+.piedepagina .creditos { background-color: #24553a; height: 40px; width: 100%; color: #fff; }
+
+@media screen and (max-width: 767px) { .contenedor-encabezado-blanco { width: 748px; }
+  .encabezado-blanco { width: 98%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+  .encabezado-telefono, .encabezado-redessociales { display: none; } }
+@media screen and (min-width: 768px) { .bienvenida { background: url("../images/MC-fondoprincipal-desktop.jpg") no-repeat center top; background-size: cover; background-attachment: fixed; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+  header { margin: 0; }
+  .boton-menu { display: none; }
+  .contenedor-encabezado-blanco { background: #fff; width: 3000px; height: 70px; margin: 0; }
+  .encabezado-blanco { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 748px; margin-left: auto; margin-right: auto; margin-top: 0; padding-top: 0; height: 70px; }
+  .encabezado-contactos { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+  .encabezado-telefono { color: #333333; text-decoration: none; margin-right: auto; margin-left: auto; }
+  .encabezado-telefono ul, .encabezado-redessociales ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; padding: 0; list-style: none; margin: 0; }
+  .encabezado-telefono ul li { color: #03a550; margin-left: .5rem; margin-right: .5rem; color: #333333; font-size: 1.1rem; }
+  .encabezado-telefono ul li i { color: #03a550; font-size: 2.5rem; }
+  .encabezado-redessociales { margin-left: auto; }
+  .encabezado-redessociales ul li { color: #03a550; text-decoration: none; margin: 0 1rem; }
+  .encabezado-redessociales ul li i { color: #03a550; font-size: 1.6rem; }
+  #menu-principal { height: auto !important; display: block; margin: 0; padding: 0; background: #03a550; }
+  #menu-principal ul li .redes-sociales-menu-mobile { display: none; }
+  #menu-principal ul { margin-left: auto; margin-right: auto; display: -webkit-box; display: -ms-flexbox; display: flex; width: 748px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  #menu-principal ul li a { padding: .8rem; }
+  .contenedor-imagenes-separadores { height: 150px; background: url("../images/imagenes-piaggio.jpg") no-repeat center center; }
+  .textoadicional .container .row { direction: rtl; } }
+
+/*# sourceMappingURL=styles.css.map */
